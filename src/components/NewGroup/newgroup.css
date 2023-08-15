@@ -1,0 +1,69 @@
+#profile-box{
+    height:95vh;
+    width:370px;
+    background-color:red;
+    position: absolute;
+    left:6px;
+    z-index:3;
+}
+.settings-search{
+    border-bottom:0.5px solid rgb(213, 208, 208);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.profile-nav{
+    height:85px;
+    width: 100%;
+    background-color: rgb(0,128,105);
+    display: flex;
+    align-items:end;
+}
+
+#ram{
+    display: flex;
+    justify-content: left;
+}
+b{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:17px;
+    margin-left: 25px;
+    color: white;
+}
+.back-icon{
+    margin-bottom:20px;
+    margin-left: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+    color: white;
+}
+
+@media screen and (max-width:680px) {
+    #profile-box{
+        height:100vh;
+        width:100%;
+        left:0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    } 
+    .profile-nav{
+        height:70px;
+    }
+    b{
+        font-size:25px;
+        font-weight: 550;
+        margin-bottom:22px;
+    }
+    .back-icon{
+        margin-left: 13px;
+        font-weight:bolder;
+        height: 30px;
+        width: 30px;
+    }
+   
+      
+}

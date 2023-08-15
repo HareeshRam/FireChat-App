@@ -1,0 +1,355 @@
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .drawer{
+        background-color: aliceblue;
+    }
+    .head1{
+        height: 100px;
+        width: 100%;
+        background-color: rgb(0,168,132);
+        /* position: sticky; */
+        display: flex;
+        justify-content: center;
+    }
+    .inner-box{
+        height:95vh;
+        width: 98%;
+        background-color:rgb(240,242,245);
+        margin-top:15px;
+        display: flex; 
+        /* position: sticky; */
+    }
+    .chat-Box-left{
+        height: 100%;
+        width:364px;
+        background-color: rgb(255,255,255);
+        position: fixed;
+    }
+
+    /* Chats CSS start */
+    #chatImage{
+        border-radius: 100%;
+        height: 50px;
+        width: 50px;
+        margin-left:6px;
+    }
+    #chatScroll{
+        width: 100%;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    #chatLi{
+        height: 60px;
+        width: 100%;
+        display: flex;
+        /* justify-content:space-around; */
+        align-items: center;
+        border-bottom:1px solid  rgb(231, 238, 246);
+        color: rgb(59,74,84);
+        font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+        cursor: pointer;  
+    }
+    #chatLi:hover{
+     background-color:rgb(231, 238, 246) ;
+    }
+    /* Chats css end */
+    .chat-Box-right{
+        height: 100%;
+        width:100%;
+        background-color:rgb(240,242,245);
+        /* background-color: red; */
+        border-bottom:4px solid rgb(37,211,102);
+        display: flex;
+        justify-content:center;
+        align-items:center;
+       /* overflow-x: scroll; */
+    }
+    .inner-ChatBox{
+        height: 100%;
+        width: 100%;
+        /* background-color: blue; */
+        position: relative;
+        z-index:2;
+    }
+    .innerchat-Nav{
+        height:45px;
+        width:96%;
+        background-color:rgb(240,242,245);
+        margin-left:38px;
+
+    }
+    .middlechat-Box{
+        height:80%;
+        width:96%;
+        background-color: rgb(242, 246, 254);
+        overflow-y: scroll;
+        margin-left:38px;
+    }
+    .back-icon3{
+        margin-top: 15px;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .bold1{
+        color:black;
+        margin-bottom: 20px;
+    }
+    .messageDiv{
+        height: 60%;
+        width: 100%;
+        border: 1px solid rgb(231, 238, 246);
+        display: flex;
+        justify-content: space-between;
+        border-radius: 10px;
+        background-color:rgb(240,242,245);
+    }
+    .search-Bar{
+        height:12%;
+        width:96%;
+        background-color: white;
+        display: flex;
+        align-items: center;
+        margin-left:38px;
+
+    }
+    #message-Input{
+        width: 90%;
+        height:100%;
+        background-color:rgb(240,242,245);
+        outline: none;
+        border: none;
+        border-radius: 10px;
+        padding: 10px;
+    }
+    .sendButton{
+        height:25px;
+        width: 25px;
+        margin-top:5px;
+        margin-right: 20px;
+    }
+    #svg1{
+        width: 60%;
+        margin-left: 90px;
+        
+    }
+    .Para1{
+        font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+        font-size:25px;
+        text-align: center;
+        color: rgb(65,82,93);
+    }
+    .Para2{
+        font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+        font-size:11px;
+        text-align: center;
+        color:rgb(102,119,129);
+        margin-top: 5px;
+    }
+    .Para3{
+       text-align: center;
+        font-size: 12px;
+        margin-top: 10px;
+        color:rgb(102,119,129);
+    
+    }
+    .Nav-left{
+        height:45px;
+        width: 100%;
+        background-color:rgb(240,242,245);
+        display: flex;
+        overflow-x:none;
+    }
+    .profile-left{
+        height:100%;
+        width:40%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    .main-profile{
+        height:75%;
+        width:22%;
+        background: url(../../Images/charan-profile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 100%;
+        margin-left: 10px;
+        cursor: pointer;
+    }
+    .profile-right{
+        height:100%;
+        width:60%;
+        /* background-color:aquamarine; */
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        gap:18px;
+    }
+    .Search-bar{
+        height:40px;
+        width: 100%;
+        background-color:white;
+        border-bottom: 1px solid rgb(233,237,239);
+        display: flex;
+        justify-content:start;
+        align-items: center;
+        padding:5px;
+    }
+    #svg4{
+     width:25px;
+       color:rgb(84,101,111);
+       cursor: pointer;
+    }
+    .load-icon{
+        color: rgb(84,101,111);
+        cursor: pointer;  
+    }
+    .message-icon{
+        width: 17px;
+        color: rgb(84,101,111);
+        cursor: pointer;
+    }
+    .menu{
+        color:rgb(84,101,111);
+        fill: black;
+        width: 18px;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+#jai{
+    height:210px;
+    width: 160px;
+    background-color:rgb(255,255,255);
+    position: absolute;
+    z-index:1;
+    border-radius: 5px;
+    left:185px;
+    top: 40px;
+    box-shadow: 0px 0px 5px rgb(59,74,84) ;
+}
+.b{
+    border:none;
+    width: 100%;
+    height:35px;
+    display: flex;
+    align-items: center;
+    padding-left:20px;
+    color: rgb(59,74,84);
+    font-size: 12px;
+    cursor: pointer;
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+}
+.a{
+    display: grid;
+    place-items: center;
+    /* text-align: start; */
+}
+.b:hover{
+    background-color:rgb(231, 238, 246) ;
+}
+@media screen and (max-width:680px) {
+    .chat-Box-left{  
+        width:100%;
+    }
+    .head1{
+      background-color: rgb(241, 51, 115);  
+    }
+    .chat-Box-right{
+       display: none;
+       position: absolute;
+       z-index: 10;
+       height: 95vh;
+       width: 100%;
+    }
+    .inner-box{
+        height:90vh;
+        width:100%;
+        background-color:rgb(240,242,245);
+        margin-top:20px;
+        display: grid;
+        place-items: center; 
+    }
+    .Nav-left{
+        height:75px;
+        align-items: center;
+        padding-top: 12px;
+    }
+    .profile-left{
+        height:70px;
+        width:120px;
+    }
+    .main-profile{
+        width:43%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-left:20px;
+    }
+    .profile-right{
+        width:70%;
+        gap:40px;
+    }
+    #svg4{
+          width:35px;
+          height:35px;
+       }
+       .load-icon{
+        height:30px;
+        width: 30px;
+    }
+    .message-icon{
+        width: 25px;
+        height:25px;
+    }
+    .menu{
+        width: 25px;
+        height: 25px; 
+    }
+    #jai{
+        height:240px;
+        width: 180px;
+        left:175px;
+        top:70px; 
+    }
+    .b{
+        height:40px;
+        padding-left:15px;
+        font-size: 18px;
+    }
+    .Search-bar{
+        height:60px;
+        padding:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #chatImage{
+        border-radius: 100%;
+        height: 55px;
+        width: 55px;
+        margin-left:15px;
+    }
+    #chatScroll{
+        width: 100%;
+        height: 80vh;
+        overflow-y: scroll;
+    }
+    #chatLi{
+        height:70px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border-bottom:1px solid  rgb(231, 238, 246);
+        color: rgb(59,74,84);
+        font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+        cursor: pointer; 
+        gap:10px; 
+        font-size: 20px ;
+    }
+
+}

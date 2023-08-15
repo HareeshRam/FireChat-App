@@ -1,0 +1,144 @@
+#chat-box{
+    height:95vh;
+    width:370px;
+    background-color:rgb(255,255,255);
+    position: absolute;
+    left:4px;
+    z-index:3;
+}
+.chat-nav{
+    height:85px;
+    width: 100%;
+    background-color: rgb(0,128,105);
+    display: flex;
+    align-items:end;
+    position:sticky;
+}
+.left-icon{
+    display: flex;
+     justify-content: start;
+     align-items: center;
+}
+b{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.back-icon{
+    margin-top:5px;
+    font-weight:bolder;
+    cursor: pointer;
+}
+
+.settings-search{
+    margin-top: 8px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.settings-profile{
+    height:90px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.settings-Image{
+    height:65px;
+    width: 65px;
+    background:url(../../Images/charan-profile.jpg);
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left:10px;
+}
+.name{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 20px;
+    margin-left:20px;
+}
+#scrolling{
+    overflow-y:scroll;
+    height:85vh;
+    /* background-color: red; */
+}
+#a{
+    display: grid;
+}
+#b{
+    height:47px;
+    border-bottom:0.3px solid  rgb(231, 238, 246);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    font-size:16px;
+    color: rgb(59,74,84);
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    cursor: pointer;  
+}
+#b:hover{
+    background-color:rgb(231, 238, 246) ;
+}
+span{
+padding-left:30px;
+}
+#svg3{
+    width: 15px;
+}
+#log{
+    color: red;
+    
+}
+@media screen and (max-width:680px) {
+    #chat-box{
+        height:100vh;
+        width:100%;
+        left: 0;
+        top: 0;
+        right:0;
+        bottom: 0;
+    }
+    .profile-nav{
+        height:70px;
+    }
+    b{
+        font-size:25px;
+        font-weight: 550;
+        margin-bottom:22px;
+    }
+    .back-icon{
+        margin-left: 13px;
+        font-weight:bolder;
+        height: 30px;
+        width: 30px;
+    }
+
+    .settings-Image{
+        margin-left:15px;
+    }
+    .name{
+        margin-left:25px;
+    }
+    #scrolling{
+        overflow-y:scroll;
+        height:90vh;
+    }
+    #b{
+        height:60px;
+        font-size:20px;  
+    }
+    #iconsMove{
+        margin-left: 20px;
+        width:25px;
+        height: 25px;
+
+    }
+    #svg3{
+        width:25px;
+        height: 25px;
+        margin-left: 20px;
+
+    }
+}

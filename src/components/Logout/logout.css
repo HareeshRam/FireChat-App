@@ -1,0 +1,100 @@
+#profile-box2{
+    height:95vh;
+    width:370px;
+    background-color:rgb(240,242,245);
+    position: absolute;
+    left:6px;
+    z-index:3;
+}
+.profile-nav2{
+    height:85px;
+    width: 100%;
+    background-color: rgb(240,242,245);
+    display: flex;
+    align-items:end;
+}
+
+#ram{
+    display: flex;
+    justify-content: left;
+}
+b{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:17px;
+    margin-left: 25px;
+    color: white;
+}
+.back-icon2{
+    margin-bottom:20px;
+    margin-left: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+    color: white;
+}
+.dialogueBox{
+    height:200px;
+    width:95%;
+    background-color:white;
+    margin-top:150px;
+    border-radius: 10px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 10px;
+}
+#top1{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#para5{
+   font-size: 20px;
+   font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+
+}
+#bottom1{
+    height: 30%;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#button1{
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    background-color: white;
+}
+@media screen and (max-width:680px) {
+    #profile-box2{
+        height:100vh;
+        width:100%;
+        left:0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    } 
+    .profile-nav2{
+        height:70px;
+    }
+    b{
+        font-size:25px;
+        font-weight: 550;
+        margin-bottom:22px;
+    }
+    .back-icon2{
+        margin-left: 13px;
+        font-weight:bolder;
+        height: 30px;
+        width: 30px;
+    }
+    .dialogueBox{
+        margin-top:250px;
+    }
+      
+}

@@ -1,0 +1,76 @@
+#profile-box1{
+    height:95vh;
+    width:370px;
+    background-color:rgb(240,242,245);
+    position: absolute;
+    left:12px;
+    top: 55px;
+    z-index:3;
+}
+.profile-nav1{
+    height:45px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items:end;
+}
+
+#ram{
+    display: flex;
+    justify-content: left;
+}
+#b1{
+    font-family: Segoe UI,Helvetica Neue,Helvetica,Lucida Grande,Arial,Ubuntu,Cantarell,Fira Sans,sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom:10px;
+    margin-left: 25px;
+    color: black;
+}
+.back-icon1{
+    margin-bottom:10px;
+    margin-left: 10px;
+    font-weight:bolder;
+    cursor: pointer;
+    color: black;
+}
+.checkbox{
+    margin-left: 10px;
+    height: 15px;
+    width: 15px;
+    z-index:99;
+    position: relative;
+   }
+@media screen and (max-width:680px) {
+    #profile-box1{
+        height:100vh;
+        width:100%;
+        left:0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    } 
+    .profile-nav1{
+        height:70px;
+    }
+    #b1{
+        font-size:25px;
+        font-weight: 550;
+        margin-bottom:22px;
+    }
+    .back-icon1{
+        margin-left: 13px;
+        font-weight:bolder;
+        height: 30px;
+        width: 30px;
+        margin-bottom: 20px;
+    }
+   .checkbox{
+    margin-left: 15px;
+    height: 20px;
+    width: 20px;
+    z-index:99;
+    position: relative;
+   }
+      
+}
